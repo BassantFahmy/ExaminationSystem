@@ -1,0 +1,63 @@
+.btn {
+    text-align: center;
+    display: inline-block;
+    &--rectangle {
+        padding-right: $padding-small;
+        padding-left: $padding-small;
+        padding-top: $padding-medium;
+        padding-bottom: $padding-medium;
+    }
+    &--rectangle2 {
+        padding-right: $padding-lg;
+        padding-left: $padding-lg;
+        padding-top: $padding-medium;
+        padding-bottom: $padding-medium;
+    }
+    &--dark {
+        @include block-colors($gray-dark-1, $light-gray);
+        &:hover {
+            @include block-colors($gray-dark-2, $white);
+        }
+    }
+    &--white {
+        @include block-colors($white, $gray);
+        &:hover {
+            @include block-colors($white, $primary);
+        }
+    }
+    &--primary {
+        @include block-colors($primary, $white);
+        &:hover {
+            @include block-colors($primary--dark, $white);
+        }
+    }
+    &--warning{
+        @include block-colors($warning, $white);
+        &:hover {
+            @include block-colors($warning--dark, $white);
+        }
+    }
+    &--yellow{
+        @include block-colors($yellow, $white);
+        &:hover {
+            @include block-colors($yellow--dark, $white);
+        }
+
+    }
+    &--success{
+        @include block-colors($success, $white);
+        &:hover {
+            @include block-colors($success-dark, $white);
+        }
+
+    }
+    &--purple{
+        @include block-colors($purple, $white);
+        &:hover {
+            @include block-colors($purple--dark, $white);
+        }
+
+    }
+    
+    
+}

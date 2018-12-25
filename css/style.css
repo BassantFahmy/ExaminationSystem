@@ -1,0 +1,226 @@
+/*------------------------colors---------------------*/
+@keyframes cartime {
+  0% {
+    left: 0; }
+  100% {
+    left: 67%; } }
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+ul {
+  list-style: none; }
+
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.container {
+  margin: auto; }
+
+.pt-m {
+  padding-top: 2rem; }
+
+.pb-m {
+  padding-bottom: 2rem; }
+
+.pl-m {
+  padding-left: 2rem; }
+
+.pr-m {
+  padding-right: 2rem; }
+
+.pt-xl {
+  padding-top: 10rem; }
+
+.pb-xl {
+  padding-bottom: 10rem; }
+
+.pr-xl {
+  padding-right: 10rem; }
+
+.pl-xl {
+  padding-left: 10rem; }
+
+.pr-lg {
+  padding-right: 3.14rem; }
+
+.pl-lg {
+  padding-left: 3.14rem; }
+
+.pt-lg {
+  padding-top: 3.14rem; }
+
+.pb-lg {
+  padding-bottom: 3.14rem; }
+
+.pt-xxl {
+  padding-top: 20rem; }
+
+.mb-s {
+  margin-bottom: 5rem; }
+
+.mt-s {
+  margin-top: 5rem; }
+
+.flex {
+  display: flex; }
+
+.justifycontent-center {
+  justify-content: center; }
+
+.m-auto {
+  margin: auto; }
+
+.center {
+  justify-content: center; }
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px; }
+  .form__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+  .form__btn {
+    width: 100%;
+    background-color: #2d6b77;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer; }
+  .form__errortxt {
+    color: #ff8080; }
+
+.test {
+  display: none; }
+
+.btn {
+  text-align: center;
+  display: inline-block; }
+  .btn--rectangle {
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .btn--rectangle2 {
+    padding-right: 3.14rem;
+    padding-left: 3.14rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .btn--dark {
+    background-color: #06070A;
+    color: #a7abb3; }
+    .btn--dark:hover {
+      background-color: #1F232C;
+      color: #fff; }
+  .btn--white {
+    background-color: #fff;
+    color: #6a6c74; }
+    .btn--white:hover {
+      background-color: #fff;
+      color: #1c58a9; }
+  .btn--primary {
+    background-color: #1c58a9;
+    color: #fff; }
+    .btn--primary:hover {
+      background-color: #274e81;
+      color: #fff; }
+  .btn--warning {
+    background-color: #e11630;
+    color: #fff; }
+    .btn--warning:hover {
+      background-color: #c21a30;
+      color: #fff; }
+  .btn--yellow {
+    background-color: #d79d00;
+    color: #fff; }
+    .btn--yellow:hover {
+      background-color: #b68a13;
+      color: #fff; }
+  .btn--success {
+    background-color: #60991e;
+    color: #fff; }
+    .btn--success:hover {
+      background-color: #4a741b;
+      color: #fff; }
+  .btn--purple {
+    background-color: #8d5ed9;
+    color: #fff; }
+    .btn--purple:hover {
+      background-color: #67449e;
+      color: #fff; }
+
+.examform {
+  text-align: center;
+  width: 75%;
+  height: 50rem;
+  background-color: #fdf3ed; }
+  .examform__q {
+    background-color: #fff; }
+  .examform__c {
+    width: 30%;
+    margin: 0.3rem; }
+  .examform__car {
+    padding-top: 65px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    animation-name: cartime;
+    animation-duration: 120s; }
+  .examform__timetext {
+    padding: 30px;
+    color: gray; }
+  .examform__img2 {
+    padding-top: 65px;
+    position: absolute;
+    left: 74%;
+    width: 35px; }
+
+.exam__sidebar {
+  display: none;
+  text-align: center;
+  background-color: #e7e3e3;
+  width: 25%; }
+
+.skipquestion {
+  cursor: pointer; }
+  .skipquestion:hover {
+    color: gray; }
+
+.examresultform {
+  text-align: center;
+  width: 100%;
+  height: 65rem;
+  background-color: #fdf3ed;
+  margin: auto;
+  justify-content: center;
+  display: none; }
+  .examresultform__img {
+    width: 11rem;
+    height: 24rem; }

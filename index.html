@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exam</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="form">
+        <span>Username :</span>
+        <input type="text" class="form__input" id="f-name">
+        <div id="nameerror" class="form__errortxt"></div>
+
+        <span>Email :</span>
+        <input type="text" class="form__input" id="f-email">
+        <div id="emailerror" class="form__errortxt"></div>
+        <br>
+        <span>Gender :</span>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female<br><br><br>
+
+        <span>Age :</span>
+        <input type="text" class="form__input" id="f-age">
+        <div id="ageerror" class="form__errortxt"></div>
+
+        <span>Password :</span>
+        <input type="password" class="form__input" id="f-password">
+        <div id="passworderror" class="form__errortxt"></div>
+
+        <span>Confirm Password :</span>
+        <input type="password" class="form__input" id="f-cpassword">
+        <div id="passerror" class="form__errortxt"></div>
+
+
+        <button class="form__btn" id="f-btn">submit</button>
+    </div>
+    <div class="flex">
+        <div class="examform test pt-m">
+            <div class="q examform__q pt-m pb-m pr-m pl-m">b</div>
+            <div class="flex center pt-lg">
+                <div class="c1 examform__c btn--warning btn--rectangle2"></div>
+                <div class="c2 examform__c btn--yellow btn--rectangle"></div>
+            </div>
+            <div class="flex center">
+                <div class="c3 examform__c btn--success btn--rectangle"></div>
+                <div class="c4 examform__c btn--primary btn--rectangle"></div>
+            </div>
+            <button class="skip btn btn--rectangle2 btn--purple">skip</button>
+            <button class="finish btn btn--rectangle2 btn--purple">finish</button>
+            <div class="examform__timetext">YOUR EXAM WILL BE TERMINATED AFTER 2 MIN.</div>
+           <div><img src="images/car.png" class="examform__car"></div>
+           <div><img src="images/redflag.png" class="examform__img2"></div>
+           
+        </div>
+   
+        <div class="exam__sidebar">
+            <h3 class="exam__sidebar__title">Skipped Questions</h3>
+
+
+
+        </div>
+    </div>
+
+    <div class="examresultform">
+        <div class="flex justifycontent-center">
+            <h2 class="examresultform__username pt-xxl">HI HAMADA</h2>
+            <img src="images/arrow.png" class="examresultform__img">
+            
+
+            <h2 class="examresultform-grade pt-lg pb-m">Your result = </h2>
+        </div>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

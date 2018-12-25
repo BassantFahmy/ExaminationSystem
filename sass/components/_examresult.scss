@@ -1,0 +1,16 @@
+.examresultform{
+    text-align: center;
+    width: 100%;
+    height: 65rem;
+    background-color: $white-pink;
+    margin: auto;
+    justify-content: center;
+    
+
+    display: none;
+    &__img{
+        width: 11rem;
+        height: 24rem;
+    }
+
+}

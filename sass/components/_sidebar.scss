@@ -1,0 +1,14 @@
+.exam__sidebar {
+    display: none;
+    text-align: center;
+    background-color: $light-gray2;
+    width: 25%;
+
+}
+
+.skipquestion {
+    cursor: pointer;
+    &:hover{
+        color: gray;
+    }
+}

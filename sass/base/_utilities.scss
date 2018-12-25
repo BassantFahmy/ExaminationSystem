@@ -1,0 +1,70 @@
+
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+    float: right;
+}
+.container{
+    margin:auto;
+}
+.pt-m{
+    padding-top: $padding-medium;
+}
+.pb-m{
+    padding-bottom: $padding-medium;
+}
+.pl-m{
+    padding-left: $padding-medium;
+}
+.pr-m{
+    padding-right: $padding-medium;
+}
+.pt-xl{
+    padding-top: $padding-xl;
+}
+.pb-xl{
+    padding-bottom:$padding-xl;
+}
+.pr-xl{
+    padding-right: $padding-xl;
+}
+.pl-xl{
+    padding-left:$padding-xl;
+}
+.pr-lg{
+    padding-right: $padding-lg;
+}
+.pl-lg{
+    padding-left:$padding-lg;
+}
+.pt-lg{
+    padding-top:$padding-lg;
+}
+.pb-lg{
+    padding-bottom:$padding-lg;
+}
+.pt-xxl{
+    padding-top:$padding-xxl;
+}
+.mb-s{
+    margin-bottom: $margin-small;
+}
+.mt-s{
+    margin-top: $margin-small;
+}
+.flex{
+    display: flex;
+}
+.justifycontent-center{
+    justify-content: center;
+}
+.m-auto{
+    margin: auto;
+}
+.center{
+    justify-content: center;
+}
